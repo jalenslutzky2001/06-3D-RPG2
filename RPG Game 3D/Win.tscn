@@ -1,0 +1,25 @@
+[gd_scene format=2]
+
+[node name="Win" type="CanvasLayer"]
+
+[node name="ColorRect" type="ColorRect" parent="."]
+margin_right = 1021.0
+margin_bottom = 598.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label" type="Label" parent="."]
+margin_left = 118.0
+margin_top = 250.0
+margin_right = 800.0
+margin_bottom = 355.0
+custom_colors/font_color = Color( 0.0431373, 0.0117647, 0.0117647, 1 )
+custom_colors/font_outline_modulate = Color( 0.823529, 0.0431373, 0.0431373, 1 )
+text = "Congratulations You Win!!"
+align = 1
+valign = 1
+autowrap = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
