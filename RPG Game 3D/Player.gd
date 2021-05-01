@@ -42,3 +42,7 @@ func _process(delta):
 
 func _on_Area_body_entered(body):
 	get_tree().change_scene("res://Win.tscn")
+
+
+func _on_Conversation_body_entered(body):
+	get_tree().change_scene("res://Line1.tscn")

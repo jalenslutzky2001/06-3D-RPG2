@@ -23,7 +23,9 @@ margin_top = 250.0
 margin_right = 849.0
 margin_bottom = 296.0
 custom_colors/font_color = Color( 0.0431373, 0.0156863, 0.0156863, 1 )
-text = "Find the Golden Tower To Win, Maybe The Local Red Beans Will Help Your Journey!!!"
+text = "Find the Golden Tower To Win, Maybe The Local Red Beans Will Help Your Journey!!! 
+WASD To Move
+Interact With Green Box to talk to Bean"
 align = 1
 valign = 1
 autowrap = true
@@ -34,4 +36,7 @@ margin_top = 300.0
 margin_right = 541.0
 margin_bottom = 320.0
 text = "Start"
+__meta__ = {
+"_edit_use_anchors_": false
+}
 [connection signal="pressed" from="Button" to="." method="_on_Button_pressed"]

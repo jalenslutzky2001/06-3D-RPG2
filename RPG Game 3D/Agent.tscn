@@ -24,7 +24,7 @@ transform = Transform( 1, 0, 0, 0, -1.62921e-07, -1, 0, 1, -1.62921e-07, 0, 0, 0
 mesh = SubResource( 2 )
 material/0 = null
 
-[node name="CollisionShape" type="CollisionShape" parent="."]
+[node name="CollisionShape1" type="CollisionShape" parent="."]
 transform = Transform( 1.2, 0, 0, 0, -1.95505e-07, -1.7, 0, 1.2, -2.76965e-07, 0, 0, 0 )
 shape = SubResource( 3 )
 
@@ -34,5 +34,5 @@ shape = SubResource( 3 )
 transform = Transform( 1, 0, 0, 0, -1.62921e-07, -1.8, 0, 1, -2.93257e-07, 0, 0, 0 )
 shape = SubResource( 4 )
 
-[node name="Timer" type="Timer" parent="."]
-[connection signal="timeout" from="Timer" to="." method="_on_Timer_timeout"]
+[node name="floor_checker" type="RayCast" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -2.37367, -0.0929933 )
