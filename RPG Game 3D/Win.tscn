@@ -16,7 +16,8 @@ margin_right = 800.0
 margin_bottom = 355.0
 custom_colors/font_color = Color( 0.0431373, 0.0117647, 0.0117647, 1 )
 custom_colors/font_outline_modulate = Color( 0.823529, 0.0431373, 0.0431373, 1 )
-text = "Congratulations You Win!!"
+text = "Congratulations You Win!!
+Your score is 0 (there was nothing to collect LOL)"
 align = 1
 valign = 1
 autowrap = true
